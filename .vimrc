@@ -215,8 +215,10 @@ set completeopt=menuone,longest,preview
 set directory=~/.vim/tmp,/var/tmp,/tmp
 set fileformats=unix,dos
 set foldcolumn=4
+set foldnestmax=10
 set foldlevelstart=99
-set foldmethod=indent
+set foldmethod=syntax
+set nofoldenable
 set guicursor=a:blinkon0
 set guioptions-=m " Remove menu
 set guioptions-=r " Remove scrollbar
@@ -279,7 +281,17 @@ try
 catch
 endtry
 
-color desert-warm-256
+"color desert-warm-256
+colorscheme solarized
+let g:ycm_global_ycm_extra_conf = '.ycm_extra_conf.py'
+let g:ycm_seed_identifiers_with_syntax=1
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <space> za
+
 
 
 " ----------------------------------------------------------------------------

@@ -97,6 +97,11 @@ NeoBundle 'https://github.com/slim-template/vim-slim.git'
 NeoBundle 'https://github.com/rainux/vim-turbux.git'
 
 
+" Custom Plugins
+NeoBundle 'https://github.com/altercation/vim-colors-solarized.git'
+NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
+NeoBundle 'tmhedberg/SimpylFold'
+
 call neobundle#end()
 
 " Required:
