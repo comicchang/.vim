@@ -1,7 +1,7 @@
 if has("gui_macvim")
   " Define a font list for MacOS with corresponding winsize and winpos arguments list
   let s:GuiFontList = [
-        \"Monaco:h17",
+        \"Monaco:h11",
         \"Bitstream\\ Vera\\ Sans\\ Mono\\ 11",
         \"DejaVu\\ Sans\\ Mono\\ 11",
         \"Inconsolat1\\ 11",

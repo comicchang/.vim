@@ -44,11 +44,11 @@ NeoBundle 'matrix.vim--Yang'
 NeoBundle 'taskpaper.vim'
 NeoBundle 'vim2ansi'
 NeoBundle 'railscasts'
-NeoBundle 'Shougo/neocomplcache', {'depends': [
-      \ ['Shougo/neosnippet', {'depends': [
-      \   'honza/vim-snippets',
-      \ ]}],
-      \ ]}
+" NeoBundle 'Shougo/neocomplcache', {'depends': [
+      " \ ['Shougo/neosnippet', {'depends': [
+      " \   'honza/vim-snippets',
+      " \ ]}],
+      " \ ]}
 
 " Programming:
 NeoBundle 'https://github.com/godlygeek/tabular.git'
@@ -96,6 +96,11 @@ NeoBundle 'https://github.com/tpope/vim-rake.git'
 NeoBundle 'https://github.com/slim-template/vim-slim.git'
 NeoBundle 'https://github.com/rainux/vim-turbux.git'
 
+
+" Custom Plugins
+NeoBundle 'https://github.com/altercation/vim-colors-solarized.git'
+NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
+NeoBundle 'tmhedberg/SimpylFold'
 
 call neobundle#end()
 

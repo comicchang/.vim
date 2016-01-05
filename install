@@ -15,6 +15,9 @@ do
     ln -sf "$PWD/$file" ~
 done
 
+ln -sf ~/.vim ~/.config/nvim
+sed 's/\.viminfo/.nviminfo/g' .vimrc > init.vim
+
 echo 'Install plugin bundles...'
 vim -u neobundle.vim -Ec "exec 'NeoBundleInstall vimproc' | q"
 vim -u neobundle.vim -Ec "exec 'NeoBundleInstall' | q"
