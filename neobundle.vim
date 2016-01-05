@@ -44,11 +44,11 @@ NeoBundle 'matrix.vim--Yang'
 NeoBundle 'taskpaper.vim'
 NeoBundle 'vim2ansi'
 NeoBundle 'railscasts'
-NeoBundle 'Shougo/neocomplcache', {'depends': [
-      \ ['Shougo/neosnippet', {'depends': [
-      \   'honza/vim-snippets',
-      \ ]}],
-      \ ]}
+" NeoBundle 'Shougo/neocomplcache', {'depends': [
+      " \ ['Shougo/neosnippet', {'depends': [
+      " \   'honza/vim-snippets',
+      " \ ]}],
+      " \ ]}
 
 " Programming:
 NeoBundle 'https://github.com/godlygeek/tabular.git'
