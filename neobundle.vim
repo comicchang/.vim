@@ -102,6 +102,11 @@ NeoBundle 'https://github.com/altercation/vim-colors-solarized.git'
 NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
 NeoBundle 'tmhedberg/SimpylFold'
 
+if has("nvim")
+  NeoBundle 'https://github.com/benekastah/neomake.git'
+endif
+
+
 call neobundle#end()
 
 " Required:
