@@ -100,6 +100,7 @@ NeoBundle 'https://github.com/rainux/vim-turbux.git'
 " Custom Plugins
 NeoBundle 'https://github.com/altercation/vim-colors-solarized.git'
 NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
+NeoBundle 'rdnetto/YCM-Generator'
 NeoBundle 'tmhedberg/SimpylFold'
 
 if has("nvim")
