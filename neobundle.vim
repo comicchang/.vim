@@ -98,10 +98,10 @@ NeoBundle 'https://github.com/rainux/vim-turbux.git'
 
 
 " Custom Plugins
-NeoBundle 'https://github.com/altercation/vim-colors-solarized.git'
 NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
 NeoBundle 'rdnetto/YCM-Generator'
 NeoBundle 'tmhedberg/SimpylFold'
+NeoBundle 'https://github.com/iCyMind/NeoSolarized.git'
 
 if has("nvim")
   NeoBundle 'https://github.com/benekastah/neomake.git'

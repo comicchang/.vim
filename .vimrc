@@ -207,6 +207,7 @@ endif
 " My customizations
 "
 " Set options
+set termguicolors
 set autoindent
 set background=dark
 set backspace=indent,eol,start
@@ -282,7 +283,8 @@ catch
 endtry
 
 "color desert-warm-256
-colorscheme solarized
+"colorscheme solarized
+colorscheme NeoSolarized
 let g:ycm_global_ycm_extra_conf = '.ycm_extra_conf.py'
 let g:ycm_seed_identifiers_with_syntax=1
 "split navigations
