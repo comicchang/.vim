@@ -288,7 +288,7 @@ endtry
 "color desert-warm-256
 "colorscheme solarized
 colorscheme NeoSolarized
-let g:ycm_global_ycm_extra_conf = '.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:ycm_seed_identifiers_with_syntax=1
 "split navigations
 nnoremap <C-J> <C-W><C-J>
