@@ -52,7 +52,7 @@ NeoBundle 'matrix.vim--Yang'
 NeoBundle 'taskpaper.vim'
 NeoBundle 'vim2ansi'
 NeoBundle 'railscasts'
-NeoBundle 'Shougo/neocomplete'
+"NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'honza/vim-snippets'
@@ -80,7 +80,7 @@ NeoBundle 'https://github.com/tpope/vim-surround.git'
 NeoBundle 'https://github.com/tpope/vim-unimpaired.git'
 NeoBundle 'vcscommand.vim'
 NeoBundle 'godlygeek/tabular'
-NeoBundleLazy 'Valloric/YouCompleteMe', {
+NeoBundle 'Valloric/YouCompleteMe', {
      \ 'build'      : {
         \ 'mac'     : './install.sh --clang-completer --system-libclang --tern-completer',
         \ 'unix'    : './install.sh --clang-completer --system-libclang',
@@ -135,6 +135,7 @@ NeoBundle 'https://github.com/rainux/vim-turbux.git'
 NeoBundle 'rdnetto/YCM-Generator'
 NeoBundle 'tmhedberg/SimpylFold'
 NeoBundle 'https://github.com/iCyMind/NeoSolarized.git'
+NeoBundle 'https://github.com/klen/python-mode.git'
 
 if has("nvim")
   NeoBundle 'https://github.com/benekastah/neomake.git'
