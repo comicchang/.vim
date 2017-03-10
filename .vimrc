@@ -288,8 +288,21 @@ endtry
 "color desert-warm-256
 "colorscheme solarized
 colorscheme NeoSolarized
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-let g:ycm_seed_identifiers_with_syntax=1
+" let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+" "" turn on completion in comments
+" let g:ycm_complete_in_comments=1
+" "" load ycm conf by default
+" let g:ycm_confirm_extra_conf=0
+" "" turn on tag completion
+" let g:ycm_collect_identifiers_from_tags_files=1
+" "" only show completion as a list instead of a sub-window
+" set completeopt-=preview
+" "" start completion from the first character
+" let g:ycm_min_num_of_chars_for_completion=1
+" "" don't cache completion items
+" let g:ycm_cache_omnifunc=0
+" "" complete syntax keywords
+" let g:ycm_seed_identifiers_with_syntax=1
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -553,6 +566,9 @@ let g:rubycomplete_classes_in_global = 1
 let g:rubycomplete_rails = 1
 let g:rubycomplete_rails_proactive = 1
 
+"
+let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+
 
 " ruby syntax
 let g:ruby_fold = 1
@@ -676,11 +692,11 @@ autocmd VimEnter * call AirlineInit()
 
 
 " Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+" autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+" autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+" autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+" autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+" autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 
 " neosnippet

@@ -80,14 +80,14 @@ NeoBundle 'https://github.com/tpope/vim-surround.git'
 NeoBundle 'https://github.com/tpope/vim-unimpaired.git'
 NeoBundle 'vcscommand.vim'
 NeoBundle 'godlygeek/tabular'
-NeoBundle 'Valloric/YouCompleteMe', {
-     \ 'build'      : {
-        \ 'mac'     : './install.sh --clang-completer --system-libclang --tern-completer',
-        \ 'unix'    : './install.sh --clang-completer --system-libclang',
-        \ 'windows' : 'install.py',
-        \ 'cygwin'  : './install.py'
-        \ }
-     \ }
+" NeoBundle 'Valloric/YouCompleteMe', {
+     " \ 'build'      : {
+        " \ 'mac'     : './install.sh --clang-completer --system-libclang --tern-completer',
+        " \ 'unix'    : './install.sh --clang-completer --system-libclang',
+        " \ 'windows' : 'install.py',
+        " \ 'cygwin'  : './install.py'
+        " \ }
+     " \ }
 NeoBundle 'CRefVim'
 NeoBundle 'NSIS-syntax-highlighting'
 NeoBundle 'pangloss/vim-javascript'
@@ -132,10 +132,12 @@ NeoBundle 'https://github.com/rainux/vim-turbux.git'
 
 " Custom Plugins
 "NeoBundle 'https://github.com/Valloric/YouCompleteMe.git'
-NeoBundle 'rdnetto/YCM-Generator'
+"NeoBundle 'rdnetto/YCM-Generator'
 NeoBundle 'tmhedberg/SimpylFold'
 NeoBundle 'https://github.com/iCyMind/NeoSolarized.git'
 NeoBundle 'https://github.com/klen/python-mode.git'
+NeoBundle 'maralla/completor.vim'
+NeoBundle 'Rip-Rip/clang_complete'
 
 if has("nvim")
   NeoBundle 'https://github.com/benekastah/neomake.git'

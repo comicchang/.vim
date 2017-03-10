@@ -138,6 +138,19 @@ flags = [
 # 'flags' list of compilation flags. Notice that YCM itself uses that approach.
 compilation_database_folder = ''
 
+# Search for compile_commands.json recursively
+search_path = os.path.abspath('.')
+while search_path != '/':
+  if os.path.exists(os.path.join(search_path, 'compile_commands.json')):
+    compilation_database_folder = search_path
+    break
+  search_path = os.path.dirname(search_path)
+
+if os.path.exists( compilation_database_folder ):
+  database = ycm_core.CompilationDatabase( compilation_database_folder )
+else:
+  database = None
+
 if os.path.exists( compilation_database_folder ):
   database = ycm_core.CompilationDatabase( compilation_database_folder )
 else:
